@@ -1,0 +1,22 @@
+# Catalogue Caisses d'Agrumes - Voyage Toulouse 2025
+
+Ce fichier sert de placeholder pour le catalogue PDF des caisses d'agrumes.
+
+## Instructions pour remplacer ce fichier :
+
+1. Créez votre catalogue complet au format PDF
+2. Nommez-le "catalogue-agrumes-10kg.pdf"
+3. Placez-le dans le dossier "catalogues"
+4. Supprimez ce fichier .txt
+
+## Contenu suggéré pour votre catalogue :
+
+- Page de couverture avec le titre "Caisses d'Agrumes 10kg - Voyage Toulouse 2025"
+- Présentation de la démarche et du voyage scolaire
+- Types d'agrumes disponibles (oranges, citrons, pamplemousses, etc.)
+- Photos des fruits et des caisses
+- Prix et informations nutritionnelles
+- Calendrier de livraison
+- Informations de commande et de contact
+
+Merci de soutenir notre voyage scolaire !

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente Scolaire - Voyage à Toulouse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="loading">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-background">
+            <div class="header-shape"></div>
+            <div class="header-particles">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">Voyage Toulouse</span>
+                        <span class="logo-sub">2025</span>
+                    </div>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#accueil" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            <span>Accueil</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#apropos" class="nav-link">
+                            <i class="fas fa-info-circle"></i>
+                            <span>À propos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produits" class="nav-link">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span>Nos Produits</span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                        <i class="fas fa-moon"></i>
+                        <span class="toggle-text">Mode sombre</span>
+                    </button>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-background">
+            <div class="hero-wave">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="hero-particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-plane"></i>
+                    <span>Voyage Éducatif 2025</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Soutenez notre</span>
+                    <span class="title-highlight">voyage scolaire</span>
+                    <span class="title-line">à Toulouse</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Aidez-nous, élèves ISAS à découvrir l'aéronautique et l'espace dans la ville rose
+                </p>
+                
+                <div class="hero-description">
+                    <div class="description-card">
+                        <i class="fas fa-rocket"></i>
+                        <p>Une aventure pédagogique unique pour explorer l'univers de l'aéronautique et conquérir de nouveaux horizons.</p>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#produits" class="cta-primary">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Découvrir nos produits</span>
+                    </a>
+                    <a href="#apropos" class="cta-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        <span>En savoir plus</span>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Catalogues</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">155</span>
+                        <span class="stat-label">Produits différents</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos Section -->
+    <section id="apropos" class="apropos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre Histoire</h2>
+                <p>Une aventure étudiante pour l'aéronautique et l'espace</p>
+            </div>
+            
+            <!-- Hero card principale -->
+            <div class="apropos-hero">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>ISAS 2025</span>
+                </div>
+                <h3>Section Initiation aux Sciences Aéronautiques et Spatiales</h3>
+                <p>Du Lycée d'Altkirch en direction de Toulouse</p>
+            </div>
+            
+            <!-- Timeline du projet -->
+            <div class="project-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Lycée d'Altkirch</h4>
+                        <p>là où tout commence</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-connector"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Formation ISAS</h4>
+                        <p>Passion pour l'aéronautique et l'espace</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-connector"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Direction Toulouse</h4>
+                        <p>Capitale européenne de l'aéronautique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produits Section -->
+    <section id="produits" class="produits">
+        <div class="produits-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Nos Produits</span>
+                </div>
+                <h2>Découvrez nos Catalogues</h2>
+                <p>Une sélection soigneusement choisie pour soutenir le voyage</p>
+            </div>
+            
+            <div class="produits-showcase">
+                <!-- Vins Locaux -->
+                <div class="produit-card premium" data-produit="vins">
+                    <div class="produit-header">
+                        <div class="produit-badge">
+                            <i class="fas fa-crown"></i>
+                            <span>Alccol</span>
+                        </div>
+                        <div class="produit-icon">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="produit-content">
+                        <h3>Vins</h3>
+                        <p>Découvrez les différents vins d'un viticulteur local.</p>
+
+                        <div class="produit-features">
+                            <div class="feature-item">
+                                <i class="fas fa-medal"></i>
+                                <span>Excellente qualité</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-leaf"></i>
+                                <span>Production locale</span>
+                            </div>
+                        </div>
+                        
+                        <div class="produit-action">
+                            <button class="btn-catalogue" onclick="openModal('vins')">
+                                <i class="fas fa-book-open"></i>
+                                <span>Parcourir le catalogue</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Caisses d'Agrumes -->
+                <div class="produit-card fresh" data-produit="agrumes">
+                    <div class="produit-header">
+                        <div class="produit-badge fresh-badge">
+                            <i class="fas fa-leaf"></i>
+                            <span>Fraîcheur</span>
+                        </div>
+                        <div class="produit-icon">
+                            <i class="fas fa-lemon"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="produit-content">
+                        <h3>Agrumes Délicieux</h3>
+                        <p>Caisses de 10 kg d'agrumes frais.</p>
+                        
+                        <div class="produit-features">
+                            <div class="feature-item">
+                                <i class="fas fa-weight"></i>
+                                <span>10 kg par caisse</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-sun"></i>
+                                <span>BIO</span>
+                            </div>
+                        </div>
+                        
+                        <div class="produit-action">
+                            <button class="btn-catalogue" onclick="openModal('agrumes')">
+                                <i class="fas fa-book-open"></i>
+                                <span>Parcourir le catalogue</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chaussettes -->
+                <div class="produit-card comfort" data-produit="chaussettes">
+                    <div class="produit-header">
+                        <div class="produit-badge comfort-badge">
+                            <i class="fas fa-heart"></i>
+                            <span>Confort</span>
+                        </div>
+                        <div class="produit-icon">
+                            <i class="fas fa-socks"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="produit-content">
+                        <h3>Chaussettes Pomme de Pin</h3>
+                        <p>Collection exclusive de chaussettes avec une panoplie de styles et couleurs.</p>
+                        <div class="produit-features">
+                            <div class="feature-item">
+                                <i class="fas fa-palette"></i>
+                                <span>Variété de styles</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-star"></i>
+                                <span>Laine de mouton</span>
+                            </div>
+                        </div>
+                        
+                        <div class="produit-action">
+                            <button class="btn-catalogue" onclick="openModal('chaussettes')">
+                                <i class="fas fa-book-open"></i>
+                                <span>Parcourir le catalogue</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chocolats -->
+                <div class="produit-card sweet" data-produit="chocolats">
+                    <div class="produit-header">
+                        <div class="produit-badge sweet-badge">
+                            <i class="fas fa-heart"></i>
+                            <span>Gourmandise</span>
+                        </div>
+                        <div class="produit-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="produit-content">
+                        <h3>Chocolats du Cœur</h3>
+                        <p>Assortiment raffiné de chocolats artisanaux pour tous les palais gourmands.</p>
+                        
+                        <div class="produit-features">
+                            <div class="feature-item">
+                                <i class="fas fa-gem"></i>
+                                <span>Chocolat artisanal</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-gift"></i>
+                                <span>Idéal cadeau</span>
+                            </div>
+                        </div>
+                        
+                        <div class="produit-action">
+                            <button class="btn-catalogue" onclick="openModal('chocolats')">
+                                <i class="fas fa-book-open"></i>
+                                <span>Parcourir le catalogue</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="produits-footer">
+                <div class="footer-card">
+                    <div class="footer-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Merci pour votre soutien !</h3>
+                    <p>Chaque achat y rapproche et contribue à enrichir nos connaissances.</p>
+                    <br />
+                    <p><strong>Toutes les commandes vous seront remises avant Noël</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Voyage Toulouse 2025</span>
+                    </div>
+                    <p class="footer-description">
+                        Un site réalisé par un élève de première dans le but de rendre visible les catalogues afin de simplifié la visualisation.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Gitex68" class="social-link" aria-label="Github" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+                            <li><a href="#apropos"><i class="fas fa-info-circle"></i> À propos</a></li>
+                            <li><a href="#produits"><i class="fas fa-shopping-bag"></i> Nos Produits</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Informations</h4>
+                        <ul>
+                            <li><a href="https://lycee-jjhenner.fr/" target="_blank"><i class="fas fa-school"></i> Lycée d'Altkirch</a></li>
+                            <li><a href="https://lycee-jjhenner.fr/nouveau-seconde-option-isas-initiation-aux-sciences-aeronautiques-et-spatiales/" target="_blank"><i class="fas fa-plane"></i> Programme ISAS</a></li>
+                            <li><a href="https://www.google.com/maps/place/Toulouse" target="_blank"><i class="fas fa-map-marker-alt"></i> Toulouse 2025</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <div class="footer-contact">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>gitex68yt@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>07 67 47 88 72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Voyage Toulouse - Gitex68. Tous droits réservés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals pour les catalogues -->
+    <div id="modal-overlay" class="modal-overlay" onclick="closeModal()">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h3 id="modal-title">Catalogue</h3>
+                <button class="close-modal" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content" id="modal-content">
+                <!-- Contenu dynamique -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+# Catalogue Chaussettes Pomme de Pin - Voyage Toulouse 2025
+
+Ce fichier sert de placeholder pour le catalogue PDF des chaussettes Pomme de Pin.
+
+## Instructions pour remplacer ce fichier :
+
+1. Créez votre catalogue complet au format PDF
+2. Nommez-le "catalogue-chaussettes-pomme-de-pin.pdf"
+3. Placez-le dans le dossier "catalogues"
+4. Supprimez ce fichier .txt
+
+## Contenu suggéré pour votre catalogue :
+
+- Page de couverture avec le titre "Chaussettes Pomme de Pin - Voyage Toulouse 2025"
+- Présentation de la marque Pomme de Pin
+- Gamme complète avec photos des modèles
+- Tailles disponibles (enfants, femmes, hommes)
+- Matières et compositions
+- Prix et couleurs disponibles
+- Guide des tailles
+- Informations de commande et de contact
+
+Merci de soutenir notre voyage scolaire !

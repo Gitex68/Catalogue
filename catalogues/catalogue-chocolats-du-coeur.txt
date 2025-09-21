@@ -1,0 +1,24 @@
+# Catalogue Chocolats du Cœur - Voyage Toulouse 2025
+
+Ce fichier sert de placeholder pour le catalogue PDF des chocolats du Cœur.
+
+## Instructions pour remplacer ce fichier :
+
+1. Créez votre catalogue complet au format PDF
+2. Nommez-le "catalogue-chocolats-du-coeur.pdf"
+3. Placez-le dans le dossier "catalogues"
+4. Supprimez ce fichier .txt
+
+## Contenu suggéré pour votre catalogue :
+
+- Page de couverture avec le titre "Chocolats du Cœur - Voyage Toulouse 2025"
+- Histoire et présentation de la chocolaterie
+- Gamme complète avec photos appétissantes
+- Chocolats noirs, au lait, blancs
+- Pralinés, ganaches, tablettes
+- Prix et descriptions des saveurs
+- Options d'emballage cadeau
+- Informations de conservation
+- Informations de commande et de contact
+
+Merci de soutenir notre voyage scolaire !

@@ -1,0 +1,21 @@
+# Catalogue Vins Locaux - Voyage Toulouse 2025
+
+Ce fichier sert de placeholder pour le catalogue PDF des vins locaux.
+
+## Instructions pour remplacer ce fichier :
+
+1. Créez votre catalogue complet au format PDF
+2. Nommez-le "catalogue-vins-locaux.pdf"
+3. Placez-le dans le dossier "catalogues"
+4. Supprimez ce fichier .txt
+
+## Contenu suggéré pour votre catalogue :
+
+- Page de couverture avec le titre "Vins Locaux - Voyage Toulouse 2025"
+- Présentation de la démarche et du voyage scolaire
+- Liste des vins disponibles avec photos
+- Prix et descriptions détaillées
+- Informations de commande et de contact
+- Conditions de livraison
+
+Merci de soutenir notre voyage scolaire !
