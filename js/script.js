@@ -164,10 +164,8 @@ const cataloguesData = {
         title: 'Catalogue Vins Locaux',
         description: 'Sélection de vins locaux de qualité issus des meilleurs vignobles de notre région.',
         details: [
-            'Vins rouges, blancs et rosés',
-            'Producteurs locaux',
-            'Conseils de dégustation',
-            'Livraison possible'
+            'Vins rouges, blancs, rosés',
+            'Producteur local',
         ],
         filename: 'catalogue-vins-locaux.pdf'
     },
@@ -176,9 +174,8 @@ const cataloguesData = {
         description: 'Caisses de 10 kg d\'agrumes frais, cueillis à maturité.',
         details: [
             'Caisses de 10 kg',
-            'Fruits frais',
-            'Livraison garantie',
-            'Variétés saisonnières'
+            'Oranges, citrons, mandarines et encore plus...',
+            'Bio'
         ],
         filename: 'catalogue-agrumes-10kg.pdf'
     },
@@ -186,10 +183,9 @@ const cataloguesData = {
         title: 'Catalogue Chaussettes Pomme de Pin',
         description: 'Chaussettes confortables de la marque Pomme de Pin.',
         details: [
-            'Matières de qualité',
-            'Tailles variées',
+            'Laine de mouton',
             'Designs colorés',
-            'Confort optimal'
+            'Confort'
         ],
         filename: 'catalogue-chaussettes-pomme-de-pin.pdf'
     },
@@ -199,7 +195,7 @@ const cataloguesData = {
         details: [
             'Chocolats artisanaux',
             'Ingrédients de qualité',
-            'Emballages cadeaux',
+            'Idées cadeaux',
             'Fabrication française'
         ],
         filename: 'catalogue-chocolats-du-coeur.pdf'

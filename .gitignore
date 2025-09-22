@@ -6,6 +6,7 @@ Thumbs.db
 *.tmp
 *.temp
 *.log
+#*.pdf
 
 # Dossiers node_modules (si jamais utilisé)
 node_modules/

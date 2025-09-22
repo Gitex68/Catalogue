@@ -194,12 +194,4 @@ Pour le projet de voyage scolaire :
 
 ## 📄 Licence
 
-© 2025 Voyage Toulouse - Gitex68. Projet éducatif libre d'utilisation pour les établissements scolaires.
-
----
-
-## 🎓 À Propos du Voyage
-
-Ce site soutient le voyage éducatif 2025 des élèves ISAS du Lycée d'Altkirch vers Toulouse, capitale européenne de l'aéronautique. Chaque achat contribue à enrichir les connaissances de nos futurs ingénieurs et scientifiques.
-
-**⭐ Merci pour votre soutien et bon voyage à Toulouse ! 🛫**
+© 2025 Voyage Toulouse - Gitex68
