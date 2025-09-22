@@ -245,6 +245,13 @@ function openModal(produitType) {
                     Télécharger le catalogue
                 </a>
                 
+                ${produitType === 'chocolats' || produitType === 'chaussettes' ? 
+                    `<a href="catalogues/bon-commande-${produitType === 'chocolats' ? 'chocolats-du-coeur' : 'chaussettes-pomme-de-pin'}.pdf" class="download-btn commande-btn" download style="background: linear-gradient(135deg, #28a745, #20c997); margin-top: 1rem;">
+                        <i class="fas fa-file-alt"></i>
+                        Télécharger le bon de commande
+                    </a>` : ''
+                }
+                
                 <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light);">
                     <i class="fas fa-heart" style="color: var(--secondary-color); margin-right: 0.3rem;"></i>
                     Merci de soutenir notre voyage !
